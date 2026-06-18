@@ -6,13 +6,11 @@ QA kursunun Cypress dərslərinə aid ev tapşırıqları və praktika nümunəl
 
 | Qovluq | Mövzu |
 |---|---|
-| `Lesson2` / `-Izahli` | CSS selektorlar, assertion-lar, login testi (the-internet, saucedemo) |
-| `Numune` / `-Izahli` | Eyni konseptlər fərqli real saytlarda (demoblaze, automationexercise, demoqa) |
-| `Lesson3` / `-Izahli` | Qabaqcıl CSS + XPath (demoblaze) |
-| `Lesson3-Homework` / `-Izahli` | XPath ilə real saytda element tapmaq (tap.az) |
-| `Lesson3-Canli` / `-Izahli` | Locator konseptlərinin canlı nümayişi (ABB Bank) |
-
-> `-Izahli` qovluqları eyni testlərin hər sətri izah olunan öyrənmə versiyalarıdır.
+| `Lesson2` | CSS selektorlar, assertion-lar, login testi (the-internet, saucedemo) |
+| `Numune` | Eyni konseptlər fərqli real saytlarda (demoblaze, automationexercise, demoqa) |
+| `Lesson3` | Qabaqcıl CSS + XPath (demoblaze) |
+| `Lesson3-Homework` | XPath ilə real saytda element tapmaq (tap.az) |
+| `Lesson3-Canli` | Locator konseptlərinin canlı nümayişi (ABB Bank) |
 
 ## İstifadə olunan texnologiyalar
 

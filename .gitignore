@@ -4,6 +4,9 @@ cypress/videos/
 cypress/downloads/
 cypress/reports/
 
+# İzahlı (öyrənmə) versiyaları — yalnız lokalda, repo-ya getmir
+cypress/e2e/*-Izahli/
+
 # Heç vaxt commit etmə — gizli məlumatlar üçün
 cypress.env.json
 .env
