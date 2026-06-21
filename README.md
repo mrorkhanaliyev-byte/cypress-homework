@@ -11,6 +11,7 @@ QA kursunun Cypress dərslərinə aid ev tapşırıqları və praktika nümunəl
 | `Lesson3` | Qabaqcıl CSS + XPath (demoblaze) |
 | `Lesson3-Homework` | XPath ilə real saytda element tapmaq (tap.az) |
 | `Lesson3-Canli` | Locator konseptlərinin canlı nümayişi (ABB Bank) |
+| `Lesson4` | Custom command (`cy.login`), fixtures, dropdown & checkbox testləri |
 
 ## İstifadə olunan texnologiyalar
 

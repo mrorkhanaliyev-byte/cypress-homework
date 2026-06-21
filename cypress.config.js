@@ -22,5 +22,11 @@ module.exports = defineConfig({
   defaultCommandTimeout: 20000,
   requestTimeout: 20000,
   viewportWidth: 1920,
-  viewportHeight: 1080
+  viewportHeight: 1080,
+  // Pulsuz demo saytlar (herokuapp) bəzən gec oyanır — terminal rejimində
+  // 2 dəfə yenidən cəhd et ki, müvəqqəti yavaşlıq testi sındırmasın.
+  retries: {
+    runMode: 2,
+    openMode: 0
+  }
 });
