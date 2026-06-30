@@ -1,0 +1,36 @@
+name: Cypress Tests
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  cypress-run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Kodu götür
+        uses: actions/checkout@v4
+
+      - name: Node.js quraşdır
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Cypress testlərini işə sal
+        uses: cypress-io/github-action@v6
+        with:
+          browser: chrome
+          # Yalnız sabit demo/API saytlarındakı testlər (CI-də etibarlı).
+          # Real sayt testləri (tap.az, ABB) CI serverindən bloklana
+          # bildiyi üçün bura daxil edilmir.
+          spec: cypress/e2e/POM/**/*.cy.js,cypress/e2e/Lesson2/**/*.cy.js,cypress/e2e/Lesson4/**/*.cy.js,cypress/e2e/LoginCommand/**/*.cy.js,cypress/e2e/Api/**/*.cy.js
+
+      - name: Screenshot saxla (uğursuz olanda)
+        uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: cypress-screenshots
+          path: cypress/screenshots
+          if-no-files-found: ignore

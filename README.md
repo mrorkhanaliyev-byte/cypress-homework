@@ -12,6 +12,8 @@ QA kursunun Cypress dərslərinə aid ev tapşırıqları və praktika nümunəl
 | `Lesson3-Homework` | XPath ilə real saytda element tapmaq (tap.az) |
 | `Lesson3-Canli` | Locator konseptlərinin canlı nümayişi (ABB Bank) |
 | `Lesson4` | Custom command (`cy.login`), fixtures, dropdown & checkbox testləri |
+| `POM` | Page Object Model — `pages/LoginPage.js` ilə login testləri |
+| `Api` | API testləri — `cy.request()` (JSONPlaceholder + dummyjson) |
 
 ## İstifadə olunan texnologiyalar
 
